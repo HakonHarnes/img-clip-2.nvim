@@ -1,6 +1,6 @@
-local clipoard = require("img-clip-test.clipboard")
-local config = require("img-clip-test.config")
-local util = require("img-clip-test.util")
+local clipoard = require("img-clip-2.clipboard")
+local config = require("img-clip-2.config")
+local util = require("img-clip-2.util")
 
 local M = {}
 

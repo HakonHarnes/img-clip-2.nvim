@@ -1,7 +1,7 @@
-local debug = require("img-clip-test.debug")
-local config = require("img-clip-test.config")
-local util = require("img-clip-test.util")
-local plugin = require("img-clip-test")
+local debug = require("img-clip-2.debug")
+local config = require("img-clip-2.config")
+local util = require("img-clip-2.util")
+local plugin = require("img-clip-2")
 
 vim.api.nvim_create_user_command("PasteImage", function()
   plugin.pasteImage()

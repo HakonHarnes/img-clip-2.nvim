@@ -65,13 +65,13 @@ The plugin comes with the following commands:
 You can also use the Lua equivalent, which allows you to override your configuration by passing the options directly to the function:
 
 ```lua
-require("img-clip-test").paste_image(opts?, input?) -- input is optional and can be a file path or URL
+require("img-clip-2").paste_image(opts?, input?) -- input is optional and can be a file path or URL
 ```
 
 <details> <summary>Example</summary>
 
 ```lua
-require("img-clip-test").paste_image({ use_absolute_path = false, file_name = "image.png" }, "/path/to/file.png")
+require("img-clip-2").paste_image({ use_absolute_path = false, file_name = "image.png" }, "/path/to/file.png")
 ```
 
 </details>
@@ -584,7 +584,7 @@ function()
         local filepath = entry[1]
         actions.close(prompt_bufnr)
 
-        local img_clip = require("img-clip-test")
+        local img_clip = require("img-clip-2")
         img_clip.paste_image(nil, filepath)
       end
 
@@ -614,7 +614,7 @@ function()
   local dir = oil.get_current_dir()
   oil.close()
 
-  local img_clip = require("img-clip-test")
+  local img_clip = require("img-clip-2")
   img_clip.paste_image({}, dir .. filename)
 end
 ```
@@ -635,7 +635,7 @@ keymaps = {
     local dir = oil.get_current_dir()
     oil.close()
 
-    local img_clip = require("img-clip-test")
+    local img_clip = require("img-clip-2")
     img_clip.paste_image({}, dir .. filename)
   end,
 }

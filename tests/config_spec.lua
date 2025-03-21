@@ -1,4 +1,4 @@
-local config = require("img-clip-test.config")
+local config = require("img-clip-2.config")
 
 describe("config", function()
   before_each(function()
