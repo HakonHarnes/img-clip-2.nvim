@@ -1,4 +1,4 @@
-local util = require("img-clip-2.util")
+local util = require("embed.util")
 
 local M = {}
 

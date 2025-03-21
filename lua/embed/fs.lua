@@ -1,6 +1,6 @@
-local clipoard = require("img-clip-2.clipboard")
-local config = require("img-clip-2.config")
-local util = require("img-clip-2.util")
+local clipoard = require("embed.clipboard")
+local config = require("embed.config")
+local util = require("embed.util")
 
 local M = {}
 

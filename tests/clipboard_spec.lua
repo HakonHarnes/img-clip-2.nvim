@@ -1,6 +1,6 @@
-local clipboard = require("img-clip-2.clipboard")
-local config = require("img-clip-2.config")
-local util = require("img-clip-2.util")
+local clipboard = require("embed.clipboard")
+local config = require("embed.config")
+local util = require("embed.util")
 
 describe("clipboard", function()
   before_each(function()

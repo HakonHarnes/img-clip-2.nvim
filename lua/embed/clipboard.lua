@@ -1,5 +1,5 @@
-local util = require("img-clip-2.util")
-local config = require("img-clip-2.config")
+local util = require("embed.util")
+local config = require("embed.config")
 
 local M = {}
 

@@ -1,5 +1,5 @@
-local config = require("img-clip-2.config")
-local paste = require("img-clip-2.paste")
+local config = require("embed.config")
+local paste = require("embed.paste")
 
 local M = {}
 

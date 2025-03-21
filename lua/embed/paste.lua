@@ -1,9 +1,9 @@
-local clipboard = require("img-clip-2.clipboard")
-local markup = require("img-clip-2.markup")
-local config = require("img-clip-2.config")
-local debug = require("img-clip-2.debug")
-local util = require("img-clip-2.util")
-local fs = require("img-clip-2.fs")
+local clipboard = require("embed.clipboard")
+local markup = require("embed.markup")
+local config = require("embed.config")
+local debug = require("embed.debug")
+local util = require("embed.util")
+local fs = require("embed.fs")
 
 local M = {}
 
