@@ -1,9 +1,9 @@
-local clipboard = require("img-clip.clipboard")
-local markup = require("img-clip.markup")
-local config = require("img-clip.config")
-local debug = require("img-clip.debug")
-local util = require("img-clip.util")
-local fs = require("img-clip.fs")
+local clipboard = require("img-clip-test.clipboard")
+local markup = require("img-clip-test.markup")
+local config = require("img-clip-test.config")
+local debug = require("img-clip-test.debug")
+local util = require("img-clip-test.util")
+local fs = require("img-clip-test.fs")
 
 local M = {}
 

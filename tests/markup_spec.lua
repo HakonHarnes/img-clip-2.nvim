@@ -1,5 +1,5 @@
-local markup = require("img-clip.markup")
-local config = require("img-clip.config")
+local markup = require("img-clip-test.markup")
+local config = require("img-clip-test.config")
 
 describe("markup", function()
   before_each(function()

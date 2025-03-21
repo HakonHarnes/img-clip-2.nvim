@@ -1,6 +1,6 @@
-local config = require("img-clip.config")
-local util = require("img-clip.util")
-local fs = require("img-clip.fs")
+local config = require("img-clip-test.config")
+local util = require("img-clip-test.util")
+local fs = require("img-clip-test.fs")
 
 describe("fs", function()
   before_each(function()

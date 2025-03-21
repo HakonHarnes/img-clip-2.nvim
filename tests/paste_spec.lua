@@ -1,8 +1,8 @@
-local clipboard = require("img-clip.clipboard")
-local paste = require("img-clip.paste")
-local plugin = require("img-clip")
-local config = require("img-clip.config")
-local util = require("img-clip.util")
+local clipboard = require("img-clip-test.clipboard")
+local paste = require("img-clip-test.paste")
+local plugin = require("img-clip-test")
+local config = require("img-clip-test.config")
+local util = require("img-clip-test.util")
 local spy = require("luassert.spy")
 
 describe("paste", function()

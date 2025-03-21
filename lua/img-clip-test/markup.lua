@@ -1,5 +1,5 @@
-local config = require("img-clip.config")
-local fs = require("img-clip.fs")
+local config = require("img-clip-test.config")
+local fs = require("img-clip-test.fs")
 
 local M = {}
 
