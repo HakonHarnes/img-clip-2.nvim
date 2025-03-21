@@ -1,4 +1,4 @@
-# 📋 img-clip.nvim
+# 📋 img-clip-2.nvim
 
 Effortlessly embed images into any markup language, like LaTeX, Markdown or Typst.
 

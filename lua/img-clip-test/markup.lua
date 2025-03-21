@@ -105,6 +105,7 @@ function M.get_template(input, is_file_path)
   template = template:gsub("$FILE_NAME", template_args.file_name)
   template = template:gsub("$FILE_PATH", template_args.file_path)
   template = template:gsub("$LABEL", template_args.label)
+  print(template)
 
   if not config.get_opt("use_cursor_in_template") then
     template = template:gsub("$CURSOR", "")
